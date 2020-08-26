@@ -18,6 +18,8 @@
             </div>
         </div>
     </header>
+
+
     <main class="container" id="main">
         <div class="row my-3">
             <div class="col">
@@ -52,6 +54,37 @@
                 </form>
             </div>
         </div>
+
+        <div class="row my-3">
+            <div class="col">
+                <form onsubmit="app.houseController.createHouse()" class="form-inline">
+                    <div class="form-group p-1">
+                        <label class="mr-1" for="style">Style</label>
+                        <input type="text" name="style" id="style" class="form-object" placeholder="Style...">
+                    </div>
+                    <div class="form-group p-1">
+                        <label class="mr-1" for="size">Size</label>
+                        <input type="text" name="size" id="size" class="form-object" placeholder="Size...">
+                    </div>
+                    <div class="form-group p-1">
+                        <label class="mr-1" for="year">Year</label>
+                        <input type="number" name="year" id="year" class="form-object" placeholder="Year...">
+                    </div>
+                    <div class="form-group p-1">
+                        <label class="mr-1" for="price">Price</label>
+                        <input type="number" name="price" id="price" class="form-object" placeholder="Price...">
+                    </div>
+                    <div class="form-group p-1">
+                        <label class="mr-1" for="img">Image URL</label>
+                        <input type="url" name="img" id="img" class="form-object" placeholder="ImageUrl...">
+                    </div>
+
+                    <button type="submit" class="btn btn-outline-success">Add House</button>
+                </form>
+            </div>
+        </div>
+
+
         <div class="row" id="cars">
             <!-- <div class="col-4">
                 <div class="card">
@@ -68,7 +101,29 @@
                 </div>
             </div> -->
         </div>
+
+        <div class="row" id="houses">
+            <!--
+            <div class="col-4">
+                <div class="card">
+                    <img class="card-img-top" src="//placehold.it/200x200" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title"></h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis,
+                            aspernatur consequuntur deserunt fuga facere optio sequi quisquam eaque totam alias illo
+                            velit placeat minima ab assumenda consectetur, nulla dolorum nisi.
+                        </p>
+                        <div class="text-right">
+                            <p>PRICE</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        -->
+        </div>
+
     </main>
+
     <footer class="container-fluid bg-primary">
         <div class="row">
             <div class="col text-center text-light">
